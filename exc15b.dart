@@ -7,7 +7,7 @@ void main() {
   print(getCharPosition('mongoose', 'k')); // null
 }
 
-getCharPosition(String word, String char) {
+dynamic getCharPosition(String word, String char) {
   int positionI = 0;
   for (var i = 0; i < word.length; i++) {
     if (word[i] == char) {

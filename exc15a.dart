@@ -7,7 +7,7 @@ void main() {
   print(getCharPosition('mongoose', 'k')); // null
 }
 
-getCharPosition(String word, String char) {
+dynamic getCharPosition(String word, String char) {
   int indexChar = word.indexOf(char);
   if (indexChar >= 0) {
     return indexChar + 1;

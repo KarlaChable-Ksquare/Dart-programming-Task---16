@@ -6,12 +6,14 @@ void main() {
   print(findALongWord(['mexico', 'hello', 'are', 'cool'])); //mexico
 }
 
-findALongWord(List words) {
+dynamic findALongWord(List words) {
   for (var i = 0; i < words.length; i++) {
+    String largeWord = '';
     if (words[i].length > words[i + 1].length) {
-      return words[i];
+      largeWord = words[i];
     } else {
-      return words[i + 1];
+      largeWord = words[i + 1];
     }
+    return largeWord;
   }
 }
