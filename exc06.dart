@@ -6,7 +6,7 @@ void main() {
   print(hasEqualChar("queen", "rani")); //false
 }
 
-hasEqualChar(String list1, String list2) {
+bool hasEqualChar(String list1, String list2) {
   if (list1.length == list2.length) {
     return true;
   } else {

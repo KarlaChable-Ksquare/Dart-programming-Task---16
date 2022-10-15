@@ -6,9 +6,9 @@ void main() {
   print(reverseString('flutter')); //rettulf
 }
 
-reverseString(String input) {
-  var splitted = input.split('');
-  var reversedList = List.from(splitted);
+String reverseString(String input) {
+  List splitted = input.split('');
+  List reversedList = List.from(splitted);
   for (var i = 0; i < splitted.length; i++) {
     reversedList[i] = splitted[splitted.length - 1 - i];
   }

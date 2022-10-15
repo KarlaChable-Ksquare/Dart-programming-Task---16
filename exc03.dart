@@ -7,7 +7,7 @@ void main() {
   print(isEven(33)); //false
 }
 
-isEven(num even) {
+bool isEven(num even) {
   if (even % 2 == 0) {
     return true;
   } else {

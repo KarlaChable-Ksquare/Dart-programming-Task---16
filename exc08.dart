@@ -6,7 +6,7 @@ void main() {
   print(factorial(3)); //6
 }
 
-factorial(int number) {
+int factorial(int number) {
   int accumulate = 1;
   for (var i = 1; i <= number; i++) {
     accumulate *= i;

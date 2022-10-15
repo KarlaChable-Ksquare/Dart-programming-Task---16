@@ -11,7 +11,7 @@ void main() {
   // [199,30]))
 }
 
-filterData(List input, int value) {
+List filterData(List input, int value) {
   input.removeWhere((item) => item >= value);
   return input;
 }

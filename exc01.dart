@@ -6,7 +6,7 @@ void main() {
   print(calculateAge(2000)); //30
 }
 
-calculateAge(int birthYear) {
+int calculateAge(int birthYear) {
   int currentYear = 2030;
   return currentYear - birthYear;
 }

@@ -8,9 +8,9 @@ void main() {
   print(getCharCount('appmaking')); // {a:2, p:2, m:1, k:1, i:1, n:1, g:1})
 }
 
-getCharCount(String word) {
+Map getCharCount(String word) {
   List splitted = word.split('');
-  var count = Map();
+  Map count = Map();
   splitted.forEach((element) => count[element] =
       !count.containsKey(element) ? (1) : (count[element] + 1));
   return count;

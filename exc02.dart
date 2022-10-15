@@ -7,7 +7,7 @@ void main() {
   print(calculateAgeFromDOB("2000-01-22")); //27
 }
 
-calculateAgeFromDOB(String birthday) {
+int calculateAgeFromDOB(String birthday) {
   DateTime year = DateTime(2030 - 01 - 01);
   DateTime dateConverter = DateTime.parse(birthday);
   return year.difference(dateConverter).inDays ~/ 365;

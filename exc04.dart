@@ -8,7 +8,7 @@ void main() {
   print(isYearLeap(1900)); //false
 }
 
-isYearLeap(int year) {
+bool isYearLeap(int year) {
   return (year % 4 == 0) && ((year % 100 != 0) || (year % 400 == 0));
 }
 
