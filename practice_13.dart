@@ -10,7 +10,7 @@ void main() {
 
 Map getCharCount(String word) {
   List splitted = word.split('');
-  Map<String, int> count = Map();
+  Map count = Map();
   splitted.forEach((element) => count[element] =
       !count.containsKey(element) ? (1) : (count[element] + 1));
   return count;
