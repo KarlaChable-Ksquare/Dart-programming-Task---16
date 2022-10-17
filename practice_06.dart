@@ -4,10 +4,6 @@
 
 class Practice06 {
   hasEqualChar(String list1, String list2) {
-    if (list1.length == list2.length) {
-      return true;
-    } else {
-      return false;
-    }
+    (list1.length == list2.length) ? true : false;
   }
 }

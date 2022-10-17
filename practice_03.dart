@@ -4,10 +4,6 @@
 
 class Practice03 {
   isEven(num even) {
-    if (even % 2 == 0) {
-      return true;
-    } else {
-      return false;
-    }
+    return (even % 2 == 0) ? true : false;
   }
 }
