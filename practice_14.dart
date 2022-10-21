@@ -5,7 +5,7 @@ which is is less than given value
  */
 
 class Practice14 {
-  filterData(List input, int value) {
+  List filterData(List input, int value) {
     input.removeWhere((item) => item >= value);
     return input;
   }

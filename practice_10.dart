@@ -3,7 +3,7 @@
 */
 
 class Practice10 {
-  reverseString(String input) {
+  String reverseString(String input) {
     List splitted = input.split('');
     List reversedList = List.from(splitted);
     for (var i = 0; i < splitted.length; i++) {

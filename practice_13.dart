@@ -4,7 +4,7 @@ characters count in given string
  */
 
 class Practice13 {
-  getCharCount(String word) {
+  Map getCharCount(String word) {
     List splitted = word.split('');
     Map count = Map();
     splitted.forEach((element) => count[element] =

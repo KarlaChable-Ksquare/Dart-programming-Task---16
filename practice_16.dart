@@ -2,7 +2,7 @@
 15. Write a program that return first position of the given character in a string with (A) & without (B) using indexOf()
  */
 
-class Practice15B {
+class Practice16 {
   getCharPosition(String word, String char) {
     int positionI = 0;
     for (var i = 0; i < word.length; i++) {

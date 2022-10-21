@@ -3,7 +3,7 @@
  */
 
 class Practice11 {
-  findALargestNumber(List numbers) {
+  num findALargestNumber(List numbers) {
     numbers.sort((b, a) => a.compareTo(b));
     return numbers.first;
   }

@@ -3,15 +3,15 @@
  */
 
 class Practice12 {
-  findALongWord(List words) {
+  String findALongWord(List<String> words) {
+    String largeWord = '';
     for (var i = 0; i < words.length; i++) {
-      String largeWord = '';
       if (words[i].length > words[i + 1].length) {
         largeWord = words[i];
       } else {
         largeWord = words[i + 1];
       }
-      return largeWord;
     }
+    return largeWord;
   }
 }

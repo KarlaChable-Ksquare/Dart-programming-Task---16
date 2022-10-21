@@ -2,8 +2,8 @@
 4. Write a program to check whether given year is Leap Year or not
  */
 
-class Practice04 {
-  isYearLeap(int year) {
+class Practice4 {
+  bool isYearLeap(int year) {
     return (year % 4 == 0) && ((year % 100 != 0) || (year % 400 == 0));
   }
 }
