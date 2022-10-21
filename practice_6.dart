@@ -3,7 +3,7 @@
 */
 
 class Practice6 {
-  hasEqualChar(String list1, String list2) {
-    (list1.length == list2.length) ? true : false;
+  bool hasEqualChar(String list1, String list2) {
+    return list1.length == list2.length;
   }
 }
