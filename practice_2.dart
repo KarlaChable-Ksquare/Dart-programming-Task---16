@@ -3,8 +3,10 @@
 */
 class Practice2 {
   num calculateAgeFromDOB(String birthday) {
-    DateTime year = DateTime(2030 - 01 - 01);
-    DateTime dateConverter = DateTime.parse(birthday);
-    return year.difference(dateConverter).inDays ~/ 365;
+    int currentYear = 2030;
+    List date = birthday.split('-');
+    int year = int.parse(date[0]);
+    int age = currentYear - year;
+    return age;
   }
 }
