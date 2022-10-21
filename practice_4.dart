@@ -1,12 +1,6 @@
 /*
 4. Write a program to check whether given year is Leap Year or not
  */
-void main() {
-  Practice4 p4 = Practice4();
-  print(p4.isYearLeap(2000));
-  print(p4.isYearLeap(2004));
-  print(p4.isYearLeap(1990));
-}
 
 class Practice4 {
   bool isYearLeap(int year) {

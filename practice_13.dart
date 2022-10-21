@@ -2,11 +2,6 @@
 13. Write a program that should return all
 characters count in given string
  */
-void main() {
-  Practice13 p13 = Practice13();
-  print(p13.getCharCount('raja'));
-  print(p13.getCharCount('appmaking'));
-}
 
 class Practice13 {
   Map getCharCount(String word) {

@@ -2,13 +2,6 @@
 15. Write a program that return first position of the given character in a string with (A) & without (B) using indexOf()
  */
 
-void main() {
-  Practice16 p16 = Practice16();
-  print(p16.getCharPosition('sundar', 'r'));
-  print(p16.getCharPosition('mongoose', 'o'));
-  print(p16.getCharPosition('mongoose', 'k'));
-}
-
 class Practice16 {
   getCharPosition(String word, String char) {
     int positionI = 0;
